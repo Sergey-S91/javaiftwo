@@ -13,17 +13,16 @@ public class Main {
         // на экран.
 
 
-
         int balance = 100;
         int cash = 1100;
 
-        int bonus = cash > 1000 ? (cash/100*1) : 0 ;
+        int bonus = cash > 1000 ? (cash / 100 * 1) : 0;
 
-                int itogo = balance + cash + bonus ;
+        int amount = balance + cash + bonus;
 
         System.out.println("Ваш текущий счет: " + balance);
         System.out.println("Ваш платёж:" + cash);
         System.out.println("Ваш бонус:" + bonus);
-        System.out.println("Итого баланс средств:" + itogo);
+        System.out.println("Итого баланс средств:" + amount);
     }
 }
